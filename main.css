@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'Comfortaa-VariableFont_wght';
+    src: url("Comfortaa-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url("Pacifico-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'b6ce-protosans563';
+    src: url(" b6ce-protosans563.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'ofontru_BureauAP';
+    src: url("ofontru_BureauAP.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'TTF';
+    src: url("TTF.ttf") format("truetype");
+}
+
+html, body {
+    margin: 0;
+}
+.str0{
+    width:100%;
+    height: 1200px;
+}
+.str0_box{
+    display: flex;
+    flex-direction: column;
+    width:1400px;
+    height: 1000px;
+    background-color: midnightblue;
+    margin-left:200px;
+    padding: 10px;
+    color: white;
+    font-family: ofontru_BureauAP;
+    margin-top:100px;
+
+
+}
+.str0_text{
+margin-top: 10px;
+text-align: center;
+font-family:Comfortaa-VariableFont_wght;
+}
+
+.str1_buttons:active {
+    height: 60px;
+    font-family: Pacifico-Regular;
+    margin: 10px;
+    background-color: #aa62d2;
+}
+.str1{
+    width:100%;
+    height: 1800px;
+    background-size:1900px;
+    background-image: url("fon_nygen.jpg");
+}
+.str1_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:500px;
+    height: 400px;
+    background-color: midnightblue;
+    margin-left:600px;
+    box-sizing: border-box;
+
+}
+
+.str1_text{
+    margin-right:10px;
+    text-align: center;
+    font-family:Comfortaa-VariableFont_wght;
+}
+
+.str1_buttons {
+    height: 50px;
+    font-family: Pacifico-Regular;
+    width: 100%;
+    margin: 10px;
+    background-color: darkorchid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.str2{
+    width:100%;
+    height: 800px;
+    background-size:2000px;
+    background-image: url("1625867688_16-kartinkin-com-p-oboi-minimalizm-nebo-krasivie-16.jpg");
+    padding-top: 200px;
+}
+.str2_home{
+    color: white;
+    font-family:b6ce-protosans563;
+    text-decoration: none;
+}
+.str2_home:hover{
+    color: black;
+    font-family:b6ce-protosans563;
+    text-decoration: none;
+}
+.str2_box{
+    display: flex;
+    flex-direction: column;
+    width:1000px;
+    height: 600px;
+    background-color: midnightblue;
+    margin-left:400px;
+    margin-bottom:800px;
+    padding: 10px;;
+    color: white;
+    font-family: ofontru_BureauAP;
+}
+.str2_text{
+    margin-left:730px;
+    font-family:Comfortaa-VariableFont_wght;
+}
+.str3{
+    width:100%;
+    height: 800px;
+    background-size:2000px;
+    background-image: url("с названием.jpg");
+    padding-top: 200px;
+}
+    .str3_box{
+        display: flex;
+        flex-direction: column;
+        width:1000px;
+        height: 600px;
+        background-color: midnightblue;
+        margin-left:400px;
+        margin-bottom:800px;
+        padding:10px;;
+        color: white;
+        font-family: ofontru_BureauAP;
+    }
+    .str3_text{
+        margin-left:730px;
+        font-family:Comfortaa-VariableFont_wght;
+}
+.str4{
+    width:100%;
+    height: 800px;
+    background-size:2000px;
+    background-image: url("png.jpg");
+    padding-top: 200px;
+}
+    .str4_box{
+        display: flex;
+        flex-direction: column;
+        width:1000px;
+        height: 600px;
+        background-color: midnightblue;
+        margin-left:400px;
+        margin-bottom:800px;
+        padding:10px;;
+        color: white;
+        font-family: ofontru_BureauAP;
+    }
+    .str4_text{
+        margin-left:730px;
+        font-family:Comfortaa-VariableFont_wght;
+}
+.str5{
+    width:100%;
+    height: 800px;
+    background-size:2000px;
+    background-image: url("4k-minimalist_vsthemes_ru-22.jpg");
+    padding-top: 200px;
+}
+    .str5_box{
+        display: flex;
+        flex-direction: column;
+        width:1000px;
+        height: 600px;
+        background-color: midnightblue;
+        margin-left:400px;
+        margin-bottom:800px;
+        padding:10px;;
+        color: white;
+        font-family: ofontru_BureauAP;
+    }
+    .str5_text{
+        margin-left:730px;
+        font-family:Comfortaa-VariableFont_wght;
+    }
+    .str1_buttons:hover {
+        height: 60px;
+        font-family: Pacifico-Regular;
+        margin: 10px;
+        background-color: rgb(106, 35, 141);
+    }
+.str6{
+    width:100%;
+    height: 800px;
+    background-size:2000px;
+    background-image: url("minimalism.jpg");
+    padding-top: 200px;
+}
+.str6_box{
+    display: flex;
+    flex-direction: column;
+    width:1000px;
+    height: 600px;
+    background-color: midnightblue;
+    margin-left:400px;
+    margin-bottom:800px;
+    padding:10px;;
+    color: white;
+    font-family: ofontru_BureauAP;
+}
+.str6_text{
+    margin-left:730px;
+    font-family:Comfortaa-VariableFont_wght;
+}
+
+.fixed-block {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+}
+.sekret{
+    width: 100px;
+    height: 100px;
+}
+.str-1{
+    width:100%;
+    height: 800px;
+    background-size:100px;
+    background-image: url("200.gif");
+    padding-top: 200px;
+}
+.str-1_box{
+    display: flex;
+    flex-direction: column;
+    width:1000px;
+    height: 600px;
+    background-color: midnightblue;
+    margin-left:400px;
+    margin-bottom:800px;
+    padding:10px;;
+    color: white;
+    font-family: TTF;
+}
+.str-1_text{
+    margin-left:730px;
+    font-family:Comfortaa-VariableFont_wght;
+}
+
+
+.snow-block {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+
